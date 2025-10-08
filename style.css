@@ -5,7 +5,7 @@
 BODY {
     font-family:'Open Sans', arial, sans-serif;
     font-size: 1em;
-    color:#444;
+    color:#cd1414;
     font-weight:400;
 }
 
@@ -15,10 +15,13 @@ BODY {
     text-transform:uppercase;
     text-align:center;
     border-bottom: 1px solid #33485e;
+    width:60%;
+    min-width:300px;
+    margin:0 auto;
 }
 
 /*my title under name */
-strong {
+#title {
     color:#33485e;
     text-transform:uppercase;
     font-size:1.5em;
@@ -49,3 +52,6 @@ h5 {
 }
 
 
+div {
+  border: 1px solid red;
+}
