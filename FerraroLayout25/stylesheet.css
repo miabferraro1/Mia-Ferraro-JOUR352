@@ -8,6 +8,7 @@
     padding: 0px;
     text-align: center;
     border-bottom: 3px solid black;
+    margin-bottom: 20px;
 }
 
 #site-name {
@@ -49,10 +50,18 @@
 h1 {
     font-family: helvetica, sans-serif;
     color: white;
+    margin: 0 auto;
+    width: 900px;
+}
+
+#subtitle {
+    font-family: helvetica, sans-serif;
+    font-size: 18px;
 }
 
 h2 {
     color: white;
+    line-height: 140%;
 }
 
 #byline {
@@ -67,6 +76,7 @@ h2 {
 
 h3 {
     color: white;
+    font-size: 23px;
 }
 
 body {
@@ -77,9 +87,45 @@ p { /*body text */
     color: white;
     font-family: georgia, serif;
     font-size: 13px;
-    
+    line-height: 140%;
 }
 
 img {
     width: 100%;
+}
+
+.caption {
+    color: rgb(202, 200, 200);
+    text-align: center;
+}
+
+blockquote {
+    font-size:20px;
+    font-style: italic;
+    color:rgb(245, 246, 190);
+}
+
+#quote-credit {
+    font-size: 14px;
+    text-align: right;
+    margin-bottom: 25px;
+    font-style: italic;
+    color: rgb(202, 200, 200);
+}
+
+.closing {
+    font-style: italic;
+    margin: 30px 0px;
+}
+
+h4 {
+    font-size: 20px;
+    color:white;
+    Font-style: italic;
+    margin-bottom: 6px;
+}
+
+#links a {
+    color: rgb(155, 215, 247);
+    line-height: 160%;
 }
