@@ -1,9 +1,41 @@
-.headline {
-    font-size: 3em;
-    font-weight: 700;
+#site-name {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    margin-top: 6px;
+    margin-bottom: 0px;
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    color: rgb(100, 79, 55);
 }
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+}
+
+header {
+    padding-bottom: 5px;
+}
+
+hr {
+    margin-top: -20.5px;
+    height: 10px;
+    border: 0;
+    border-top: .8px solid black;
+}
+
+
+
+
+.topper img {
+    max-width: none;
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
 
 .byline {
     font-size: 1em;
@@ -12,20 +44,32 @@
     text-align: center;
 }
 
-h1 {
-    font-size: 2em;
+
+.content {
+    display: block;
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 14px;
 }
+
+
+.olivia {
+    max-width: none;
+    width: 30%;
+    display: block;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
 
 p {
     font-family: georgia, serif;
     line-height: 180%;
 }
 
-.chapter-text {
-    font-size: 14px;
-}
 
-img {
+.in-text-photo {
     width: 100%;
     height: auto;
     max-width: 600px;
@@ -33,6 +77,41 @@ img {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+.image {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;  
+}
+
+
+.chart-container1 {
+    display: flex;
+    margin: 40px 0;
+    width: 100%;
+    justify-content: center;
+}
+
+
+.chart-container {
+    max-width: none;
+    display: block;
+    float: right;
+    margin: 5px 0px 5px 50px;
+    min-width: 60%;
+}
+
+.text-container {
+    margin-top: -60px;
+}
+
+
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
 
 .caption {
     font-size: 13px;
@@ -43,7 +122,7 @@ img {
 }
 
 footer {
-    background-color: black;
+    background-color: #EB7618;
     margin-top: 30px;
     height: 60px;
     color: white;
