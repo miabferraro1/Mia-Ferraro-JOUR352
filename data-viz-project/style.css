@@ -72,10 +72,10 @@ p {
 .yntcdreal1 {
     max-width: 1px;
     min-width: 40%;
-    width: 10%;
+    width: 14%;
     display: block;
     float: left;
-    margin-left: -13px;
+    margin-left: -10px;
     margin-bottom: -5px; 
 }
 
@@ -118,7 +118,7 @@ p {
     font-size: 13px;
     margin-left: 80px;
     margin-right: 80px;
-    color: gray;
+    color: rgb(180, 92, 26);
     text-align: center;
 }
 
