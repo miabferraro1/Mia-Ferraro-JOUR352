@@ -70,8 +70,9 @@ p {
 
 
 .yntcdreal1 {
-    max-width: none;
-    width: 20%;
+    max-width: 1px;
+    min-width: 40%;
+    width: 10%;
     display: block;
     float: left;
     margin-left: -13px;
